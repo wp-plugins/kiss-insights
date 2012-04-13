@@ -65,7 +65,7 @@ if (is_admin()) {
 }
 
 if (!is_admin()) {
-	add_action('wp_footer', 'kissinsights');
+	add_action('wp_head', 'kissinsights');
 }
 
 ?>
