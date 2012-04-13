@@ -5,7 +5,7 @@ Requires at least: 2.7
 Author URI: http://www.stinkyinkshop.co.uk/themes/
 Plugin URI: http://www.stinkyinkshop.co.uk/themes/plugins/kiss-insights/
 Tested up to: 3.3.1
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 
 Enables Kiss Insights on your WordPress powered blog!
 
@@ -27,6 +27,8 @@ For more information visit:
 5. Done!
 
 == Changelog ==
+
+2.0.3 - moved plugin to wp_head at request of KI to improve access to other KI features
 
 2.0.2 - fixed problem with missing options.php file!!!! Sorry!
 
