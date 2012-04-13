@@ -3,7 +3,7 @@
 Plugin Name: Kiss Insights
 Plugin URI: http://www.stinkyinkshop.co.uk/themes/plugins/kiss-insights/
 Description: Enables <a href="http://www.kissinsights.com">Kiss Insights</a> on all pages.
-Version: 2.0.1
+Version: 2.0.3
 Author: Stinkyink
 Author URI: http://www.stinkyinkshop.co.uk/themes/
 */
@@ -65,7 +65,7 @@ if (is_admin()) {
 }
 
 if (!is_admin()) {
-	add_action('wp_footer', 'kissinsights');
+	add_action('wp_head', 'kissinsights');
 }
 
 ?>
